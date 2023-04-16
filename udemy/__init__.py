@@ -4,6 +4,10 @@
 
 import os
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 token = os.environ.get('TOKEN')
 api_id = os.environ.get('API_ID')
 api_hash = os.environ.get('API_HASH')
